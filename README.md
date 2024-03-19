@@ -1,4 +1,6 @@
-# -const result = +prompt('Введите число')
+# -ДЗ
+
+const result = +prompt('Введите число')
 if (typeof + result !== 'number') {
   alert ('Упс, кажется, вы ошиблись')
 } else if (isNaN(result)) {
