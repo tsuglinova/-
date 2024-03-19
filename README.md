@@ -1,3 +1,4 @@
+Задача1
 const result = +prompt('Введите число')
 if (typeof + result !== 'number') {
   alert ('Упс, кажется, вы ошиблись')
@@ -10,7 +11,7 @@ if (typeof + result !== 'number') {
 }
 
 
-
+Задача2
 const x = 1
 if (typeof x === "number")
   {
@@ -26,6 +27,14 @@ else if (typeof x === "boolean") {
   console.log ("x-тип не определен")
  }
 
+Задача3
+function reverseString(str){
+  var splitString = "hello".split("");
+  var reverseArray = splitString. reverse();
+  var joinArray = reverseArray. join("");
+ return joinArray;
+ }
+ reverseString("hello");
 
 
 
