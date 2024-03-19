@@ -43,7 +43,7 @@ Math.floor(Math.random()*101);
 const arr = ["2", "5", "8"];
 
  arr.forEach(function(item, i, arr) {
-   alert( i + ": " + item + " (массив:" + arr + ")" );
+   console.log( i + ": " + item + " (массив:" + arr + ")" );
  });
- const.length;
+ console.log (arr.length);
 
