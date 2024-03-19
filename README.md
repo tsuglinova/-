@@ -39,3 +39,11 @@ function reverseString(str){
 Задача 4
 Math.floor(Math.random()*101);
 
+Задача 5
+const arr = ["2", "5", "8"];
+
+ arr.forEach(function(item, i, arr) {
+   alert( i + ": " + item + " (массив:" + arr + ")" );
+ });
+ const.length;
+
