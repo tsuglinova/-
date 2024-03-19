@@ -36,5 +36,6 @@ function reverseString(str){
  }
  reverseString("hello");
 
-
+Задача 4
+Math.floor(Math.random()*101);
 
