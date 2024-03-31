@@ -47,3 +47,18 @@ const arr = ["2", "5", "8"];
  });
  console.log (arr.length);
 
+ Задача 6
+
+const numbers = [5 , 5 ,5 , 8 , 17 , 7 ,17]; 
+
+const countItems = {}; 
+
+for (const item of numbers) {
+  
+  countItems[item] = countItems[item] ? countItems[item] + 1 : 1;
+}
+
+const result = Object.keys(countItems).filter((item) => countItems[item] > 1);
+console.dir(result); 
+
+
