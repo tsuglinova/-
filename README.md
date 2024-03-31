@@ -61,4 +61,33 @@ for (const item of numbers) {
 const result = Object.keys(countItems).filter((item) => countItems[item] > 1);
 console.dir(result); 
 
+Задача 7
+function funcName() { 
 
+let arr = [2, 10, 0 , 7 , 0 , 5, 0 ,17];
+let even = 0;
+let odd = 0;
+let zero = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 0) {
+            zero ++
+        } else if (arr[i]%2 == 0) {
+            even ++
+        } else {
+            odd ++
+        }
+    }
+
+console.log(zero, even, odd);
+}
+
+funcName(); 
+Задача 8 
+let fruits = new Map ()
+fruits.set("apple" , "green");
+fruits.set("bluberry" , "blue");
+fruits.set("banana" , "yellow")
+
+for (let pair of fruits.entries()){
+  console.log ( `Ключ - ${pair[0]} , Значение - ${pair[1]}`);
+ }
