@@ -56,4 +56,10 @@ let result = isPrimeNumber(randomNumber);
 console.log(`Число ${randomNumber} - ${result}`);
 
 Задача 3
+function sum(x) {
+  return function summ(y) {
+    return console.log(x+y);
+  }
+}
 
+sum(9)(7)
