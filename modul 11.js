@@ -63,3 +63,30 @@ function sum(x) {
 }
 
 sum(9)(7)
+
+Задача 4
+function num(from, to) {
+    let current = from;
+  
+    let timerId = setInterval(function() {
+      console.log(current);
+      if (current == to) {
+        clearInterval(timerId);
+      }
+      current++;
+    }, 1000);
+  }
+  
+  num(5, 15);
+
+Задача 5
+const sum = (x, n) => {
+
+    const result = Math.pow(x, n);
+    console.log(result)
+    return result;
+  
+  };
+
+sum(8, 3);
+
